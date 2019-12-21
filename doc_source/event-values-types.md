@@ -94,7 +94,7 @@ In the following procedure, you use the AWS SDK for Python \(Boto 3\) to create 
     recipe_arn = "arn:aws:personalize:::recipe/aws-recipe-name"
    ```
 
-1. Call the [CreateSolution](API_CreateSolution.md) API\. If you want to specify the event type, for example `“purchase”`, set it in ther the `eventType` parameter\. If you want to specify an event value, for example `10`, set it in the `eventValueThreshold` parameter\. You can also specify both an event type and an event value\.
+1. Call the [CreateSolution](API_CreateSolution.md) API\. If you want to specify the event type, for example `“purchase”`, set it in the `eventType` parameter\. If you want to specify an event value, for example `10`, set it in the `eventValueThreshold` parameter\. You can also specify both an event type and an event value\.
 
    ```
    import boto3
